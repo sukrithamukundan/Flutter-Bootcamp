@@ -16,8 +16,8 @@ The following animated GIF shows how the app works at the completion of part 1&2
 ![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
 
 
-- **Step1:-** Create a simple, templated Flutter app and name it **startup_namer**.
-- **Step2:-** Delete all of the code from `lib/main.dart` and replace it with the following code, which displays "Hello World" in the center of the screen.
+- **Step 1:-** Create a simple, templated Flutter app and name it **startup_namer**.
+- **Step 2:-** Delete all of the code from `lib/main.dart` and replace it with the following code, which displays "Hello World" in the center of the screen.
 ```
 import 'package:flutter/material.dart';
 
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-- **Step3:-** [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
+- **Step 3:-** [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
 
 Android | IOS
 ------------ | -------------
@@ -61,7 +61,7 @@ In the next step, you'll start using an open-source package named [english_words
 
 You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](https://pub.dev/)
 
-- **Step4:-** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
+- **Step 4:-** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
 ```
 dependencies:
   flutter:
@@ -71,21 +71,21 @@ dependencies:
   english_words: ^4.0.0-0   # add this line
   ```
 
-- While viewing the pubspec in Android Studio's editor view, click Packages get. This pulls the package into your project. You should see the following in the console:
+- **Step 5:-** While viewing the pubspec in Android Studio's editor view, click Packages get. This pulls the package into your project. You should see the following in the console:
 ```
 flutter packages get
 Running "flutter packages get" in startup_namer...
 Process finished with exit code 0
 ```
-- In lib/main.dart, import the new package:
+- **Step 6:-** In lib/main.dart, import the new package:
 
 ```
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';  // Add this line.
 ```
-- Next, you'll use the `english_words` package to generate the text instead of using "Hello World".
+Next, you'll use the `english_words` package to generate the text instead of using "Hello World".
 
-b2f84ff91b0e1396.png Make the following changes:
+**Step 7:-** Make the following changes:
 
 ```
 import 'package:flutter/material.dart';
@@ -115,4 +115,4 @@ class MyApp extends StatelessWidget {
 
 >**Tip:** Pascal case (also known as upper camel case) means that each word in the string, including the first one, begins with an uppercase letter. So, uppercamelcase becomes UpperCamelCase.
 
-b2f84ff91b0e1396.png  If the app is running, hot reload e11f6ccd1560a28b.png to update the running app. (From the command line, you can enter r to hot reload.) Each time you click hot reload or save the project, you should see a different word pair, chosen at random, in the running app. That's because the word pairing is generated inside the build method, which runs each time the MaterialApp requires rendering, or when toggling the Platform in the Flutter Inspector.
+If the app is running, hot reload to update the running app. (From the command line, you can enter r to hot reload.) Each time you click hot reload or save the project, you should see a different word pair, chosen at random, in the running app. That's because the word pairing is generated inside the build method, which runs each time the MaterialApp requires rendering, or when toggling the Platform in the Flutter Inspector.
