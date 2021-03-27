@@ -16,8 +16,8 @@ The following animated GIF shows how the app works at the completion of part 1&2
 ![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
 
 
-- **Step1** Create a simple, templated Flutter app and name it **startup_namer**.
-- **Step2**Delete all of the code from `lib/main.dart` and replace it with the following code, which displays "Hello World" in the center of the screen.
+- **Step1:-** Create a simple, templated Flutter app and name it **startup_namer**.
+- **Step2:-** Delete all of the code from `lib/main.dart` and replace it with the following code, which displays "Hello World" in the center of the screen.
 ```
 import 'package:flutter/material.dart';
 
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
--**Step3** [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
+- **Step3:-** [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
 
 Android | IOS
 ------------ | -------------
@@ -61,7 +61,7 @@ In the next step, you'll start using an open-source package named [english_words
 
 You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](https://pub.dev/)
 
--**Step4** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
+- **Step4:-** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
 ```
 dependencies:
   flutter:
