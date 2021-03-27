@@ -4,7 +4,7 @@ Flutter is Google's UI toolkit for building beautiful, natively compiled applica
 
 In this Bootcamp, you will be able to learn Flutter through interactive **Live** group sessions. We start everything from **Scratch** - From setting up the environment & IDE to write a full-fledged Flutter App, All you need is a laptop and a zeal to learn.
 
-**What you'll learn**
+## What you'll learn
 
 🔺 Understand all the fundamental concepts of Flutter development
 
