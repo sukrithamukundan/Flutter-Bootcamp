@@ -44,15 +44,15 @@ class MyApp extends StatelessWidget {
 
 Android | IOS
 ------------ | -------------
-![20374605026d582](https://user-images.githubusercontent.com/49060283/112726817-55353d80-8f45-11eb-96f7-6adbeb993c07.png) | ![f9df7832965ede9f](https://user-images.githubusercontent.com/49060283/112729138-a991ea80-8f50-11eb-83a1-e10bc7b828c0.png)
+![f9df7832965ede9f](https://user-images.githubusercontent.com/49060283/112729138-a991ea80-8f50-11eb-83a1-e10bc7b828c0.png) | ![20374605026d582](https://user-images.githubusercontent.com/49060283/112726817-55353d80-8f45-11eb-96f7-6adbeb993c07.png)
 
 >**Tip:** The first time that you run on a physical device, it can take a while to load. Afterward, you can use hot reload for quick updates. In supported IDEs, Save also performs a hot reload if the app is running. When running an app directly from the console using flutter run, enter r to perform hot reload.
 
 ## Observations 
 
 > - This example creates a [Material](https://material.io/design/) app. Material is a visual-design language that's standard on mobile and the web. Flutter offers a rich set of [Material widgets](https://flutter.dev/docs/development/ui/widgets/material).
-- The main method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
-- The app extends [StatelessWidget](https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets), which makes the app itself a widget. In Flutter, almost everything is a widget, including alignment, padding, and layout.
+> - The main method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
+> - The app extends [StatelessWidget](https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets), which makes the app itself a widget. In Flutter, almost everything is a widget, including alignment, padding, and layout.
 - The [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget, from the Material library, provides a default app bar, a title, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
 - A widget's main job is to provide a build method that describes how to display the widget in terms of other, lower-level widgets.
 - The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
