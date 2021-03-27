@@ -30,6 +30,6 @@ In this Bootcamp, you will be able to learn Flutter through interactive **Live**
 
 [Dart Pad](https://dartpad.dev/0df636e00f348bdec2bc1c8ebc7daeb1?null_safety=true)
 
-[Knowbotics App Development Using Flutter](https://www.youtube.com/watch?v=S3PkT_REi1c&list=PLGykX21r34XAKta1fDBC7vcdEmew2VqMi)
+[App Development | Knowbotics | Robocek](https://www.youtube.com/watch?v=S3PkT_REi1c&list=PLGykX21r34XAKta1fDBC7vcdEmew2VqMi)
 
 [GitHub](https://www.youtube.com/watch?v=wrb7Gge9yoE)
