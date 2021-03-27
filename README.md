@@ -32,4 +32,4 @@ In this Bootcamp, you will be able to learn Flutter through interactive **Live**
 
 [Knowbotics App Development Using Flutter](https://www.youtube.com/watch?v=S3PkT_REi1c&list=PLGykX21r34XAKta1fDBC7vcdEmew2VqMi)
 
-[GitHub]
+[GitHub](https://www.youtube.com/watch?v=wrb7Gge9yoE)
