@@ -53,15 +53,15 @@ Android | IOS
 > - This example creates a [Material](https://material.io/design/) app. Material is a visual-design language that's standard on mobile and the web. Flutter offers a rich set of [Material widgets](https://flutter.dev/docs/development/ui/widgets/material).
 > - The main method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
 > - The app extends [StatelessWidget](https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets), which makes the app itself a widget. In Flutter, almost everything is a widget, including alignment, padding, and layout.
-- The [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget, from the Material library, provides a default app bar, a title, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
-- A widget's main job is to provide a build method that describes how to display the widget in terms of other, lower-level widgets.
-- The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
+> - The [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget, from the Material library, provides a default app bar, a title, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
+> - A widget's main job is to provide a build method that describes how to display the widget in terms of other, lower-level widgets.
+> - The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
 
-- In this step, you'll start using an open-source package named [english_words](https://pub.dev/packages/english_words), which contains a few thousand of the most-used English words, plus some utility functions.
+In the next step, you'll start using an open-source package named [english_words](https://pub.dev/packages/english_words), which contains a few thousand of the most-used English words, plus some utility functions.
 
 You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](https://pub.dev/)
 
-- The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
+-**Step4** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
 ```
 dependencies:
   flutter:
