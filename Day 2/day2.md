@@ -51,10 +51,10 @@ Android | IOS
 ## Observations 
 
 > - This example creates a [Material](https://material.io/design/) app. Material is a visual-design language that's standard on mobile and the web. Flutter offers a rich set of [Material widgets](https://flutter.dev/docs/development/ui/widgets/material).
-> - The main method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
+> - The main method uses arrow `(=>)` notation. Use arrow notation for one-line functions or methods.
 > - The app extends [StatelessWidget](https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets), which makes the app itself a widget. In Flutter, almost everything is a widget, including alignment, padding, and layout.
 > - The [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget, from the Material library, provides a default app bar, a title, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
-> - A widget's main job is to provide a build method that describes how to display the widget in terms of other, lower-level widgets.
+> - A widget's main job is to provide a `build` method that describes how to display the widget in terms of other, lower-level widgets.
 > - The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
 
 In the next step, you'll start using an open-source package named [english_words](https://pub.dev/packages/english_words), which contains a few thousand of the most-used English words, plus some utility functions.
@@ -71,7 +71,7 @@ dependencies:
   english_words: ^4.0.0-0   # add this line
   ```
 
-- **Step 5:-** While viewing the pubspec in Android Studio's editor view, click Packages get. This pulls the package into your project. You should see the following in the console:
+- **Step 5:-** While viewing the pubspec in Android Studio's editor view, click "Packages get". This pulls the package into your project. You should see the following in the console:
 ```
 flutter packages get
 Running "flutter packages get" in startup_namer...
@@ -116,3 +116,8 @@ class MyApp extends StatelessWidget {
 >**Tip:** Pascal case (also known as upper camel case) means that each word in the string, including the first one, begins with an uppercase letter. So, uppercamelcase becomes UpperCamelCase.
 
 If the app is running, hot reload to update the running app. (From the command line, you can enter r to hot reload.) Each time you click hot reload or save the project, you should see a different word pair, chosen at random, in the running app. That's because the word pairing is generated inside the build method, which runs each time the MaterialApp requires rendering, or when toggling the Platform in the Flutter Inspector.
+
+Android | IOS
+------------ | -------------
+![image](https://user-images.githubusercontent.com/49060283/112730198-3ee3ad80-8f56-11eb-927d-a2df10c29431.png) | ![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
+
