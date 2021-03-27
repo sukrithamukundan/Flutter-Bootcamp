@@ -13,6 +13,7 @@ You'll implement a simple app that generates proposed names for a startup compan
 
 The following animated GIF shows how the app works at the completion of part 1&2:
 
-![image](https://user-images.githubusercontent.com/49060283/112726134-d1c61d00-8f41-11eb-8a8b-8213620ee95a.png)
+![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
+
 
 
