@@ -15,5 +15,105 @@ The following animated GIF shows how the app works at the completion of part 1&2
 
 ![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
 
+- Create a simple, templated Flutter app and name it **startup_namer**.
 
+- Delete all of the code from `lib/main.dart` and replace it with the following code, which displays "Hello World" in the center of the screen.
 
+```
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
+        body: const Center(
+          child: const Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
+```
+- [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
+
+Android | IOS
+------------ | -------------
+![20374605026d582](https://user-images.githubusercontent.com/49060283/112726817-55353d80-8f45-11eb-96f7-6adbeb993c07.png) | ![1607143772237](https://user-images.githubusercontent.com/49060283/112726822-59f9f180-8f45-11eb-95f3-0816b1660842.jpeg)
+
+>**Tip:** The first time that you run on a physical device, it can take a while to load. Afterward, you can use hot reload for quick updates. In supported IDEs, Save also performs a hot reload if the app is running. When running an app directly from the console using flutter run, enter r to perform hot reload.
+
+## Observations
+
+- This example creates a [Material](https://material.io/design/) app. Material is a visual-design language that's standard on mobile and the web. Flutter offers a rich set of [Material widgets](https://flutter.dev/docs/development/ui/widgets/material).
+- The main method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
+- The app extends [StatelessWidget](https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets), which makes the app itself a widget. In Flutter, almost everything is a widget, including alignment, padding, and layout.
+- The [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget, from the Material library, provides a default app bar, a title, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
+- A widget's main job is to provide a build method that describes how to display the widget in terms of other, lower-level widgets.
+- The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
+
+- In this step, you'll start using an open-source package named `english_words`, which contains a few thousand of the most-used English words, plus some utility functions.
+
+- You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](pub.dev)
+
+- The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
+```
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  english_words: ^4.0.0-0   # add this line
+  ```
+
+- While viewing the pubspec in Android Studio's editor view, click Packages get. This pulls the package into your project. You should see the following in the console:
+```
+flutter packages get
+Running "flutter packages get" in startup_namer...
+Process finished with exit code 0
+```
+- In lib/main.dart, import the new package:
+
+```
+import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';  // Add this line.
+```
+- Next, you'll use the `english_words` package to generate the text instead of using "Hello World".
+
+b2f84ff91b0e1396.png Make the following changes:
+
+```
+import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final wordPair = WordPair.random(); // Add this line.
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Welcome to Flutter'),
+        ),
+        body: Center(                       // Drop the const, and
+          //child: Text('Hello World'),     // Replace this text...
+          child: Text(wordPair.asPascalCase),  // With this text.
+        ),
+      ),
+    );
+  }
+}
+```
+
+>**Tip:** Pascal case (also known as upper camel case) means that each word in the string, including the first one, begins with an uppercase letter. So, uppercamelcase becomes UpperCamelCase.
+
+b2f84ff91b0e1396.png  If the app is running, hot reload e11f6ccd1560a28b.png to update the running app. (From the command line, you can enter r to hot reload.) Each time you click hot reload or save the project, you should see a different word pair, chosen at random, in the running app. That's because the word pairing is generated inside the build method, which runs each time the MaterialApp requires rendering, or when toggling the Platform in the Flutter Inspector.
