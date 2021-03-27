@@ -1,13 +1,13 @@
 # Startup Namer - Part 1
 
-### What you'll learn
+## What you'll learn
 
 - How to write a Flutter app that looks natural on iOS, Android, and the web
 - The basic structure of a Flutter app
 - Finding and using packages to extend the functionality
 - Using hot reload for a quicker development cycle
 
-### What you'll build
+## What you'll build
 
 You'll implement a simple app that generates proposed names for a startup company. The user can select and unselect names, saving the best ones. The code lazily generates 10 names at a time. As the user scrolls, more names are generated. There is no limit to how far a user can scroll.
 
