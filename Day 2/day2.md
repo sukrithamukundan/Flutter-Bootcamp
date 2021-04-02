@@ -86,7 +86,7 @@ Running "flutter packages get" in startup_namer...
 Process finished with exit code 0
 ```
 
-- **Step 6:-** In lib/main.dart, import the new package:
+- **Step 6:-** In `lib/main.dart`, import the new package:
 
 ```
 import 'package:flutter/material.dart';
