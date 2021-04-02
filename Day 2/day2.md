@@ -78,7 +78,7 @@ dependencies:
   english_words: ^4.0.0-0   # add this line
   ```
 
-- **Step 5:-** While viewing the pubspec in Android Studio's editor view, click "Packages get". This pulls the package into your project. You should see the following in the console:
+- **Step 5:-** While viewing the pubspec in Android Studio's editor view, click **"Packages get"**. This pulls the package into your project. You should see the following in the console:
 
 ```
 flutter packages get
