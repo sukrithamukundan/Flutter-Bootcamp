@@ -50,7 +50,7 @@ Android | IOS
 ![f9df7832965ede9f](https://user-images.githubusercontent.com/49060283/112729138-a991ea80-8f50-11eb-83a1-e10bc7b828c0.png) | ![20374605026d582](https://user-images.githubusercontent.com/49060283/112726817-55353d80-8f45-11eb-96f7-6adbeb993c07.png)
 
 
->**Tip:** The first time that you run on a physical device, it can take a while to load. Afterward, you can use hot reload for quick updates. In supported IDEs, Save also performs a hot reload if the app is running. When running an app directly from the console using flutter run, enter r to perform hot reload.
+>**Tip:** The first time that you run on a physical device, it can take a while to load. Afterward, you can use [hot reload](https://flutter.dev/docs/get-started/test-drive#androidstudio) for quick updates. In supported IDEs, Save also performs a hot reload if the app is running. When running an app directly from the console using flutter run, enter r to perform hot reload.
 
 
 ## Observations 
