@@ -63,7 +63,7 @@ Android | IOS
 > - The body for this example consists of a [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) widget containing a [Text](https://api.flutter.dev/flutter/widgets/Text-class.html) child widget. The Center widget aligns its widget subtree to the center of the screen.
 
 
-In the next step, you'll start using an open-source package named [english_words](https://pub.dev/packages/english_words), which contains a few thousand of the most-used English words, plus some utility functions.
+In the next step, you'll start [using an open-source package](https://flutter.dev/docs/development/packages-and-plugins/using-packages#using-packages) named [english_words](https://pub.dev/packages/english_words), which contains a few thousand of the most-used English words, plus some utility functions.
 
 You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](https://pub.dev/)
 
