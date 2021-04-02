@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-- **Step 3:-** [Run the app.](flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
+- **Step 3:-** [Run the app.](https://flutter.dev/docs/get-started/test-drive#androidstudio) You should see either Android, iOS, or web output, depending on your device.
 
 
 Android | IOS
