@@ -67,7 +67,7 @@ In the next step, you'll start [using an open-source package](https://flutter.de
 
 You can find the `english_words` package, as well as many other open-source packages, at [pub.dev.](https://pub.dev/)
 
-- **Step 4:-** The pubspec file manages the assets for a Flutter app. In pubspec.yaml, append english_words: ^4.0.0-0 (english_words 4.0.0-0 or higher) to the dependencies list:
+- **Step 4:-** The pubspec file manages the assets for a Flutter app. In `pubspec.yaml`, append `english_words: ^4.0.0-0` (english_words 4.0.0-0 or higher) to the dependencies list:
 
 ```
 dependencies:
