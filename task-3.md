@@ -5,6 +5,11 @@
 - How to implement a stateful widget
 - How to create an infinite, lazily loaded list
 
+The following animated GIF shows how the app works at the completion of part 2:
+
+![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
+
+
 
 Stateless widgets are immutable, meaning that their properties can't change—all values are final.
 
@@ -200,7 +205,7 @@ Change it to use `_buildSuggestions()`, rather than directly calling the word-ge
 - **Step 11:-** Restart the app. You should see a list of word pairings no matter how far you scroll.
 
 
-Android | IOS
+IOS | Android
 ------------ | -------------
 ![ae47ef0ac2f492b8](https://user-images.githubusercontent.com/49060283/113668680-3adf2a80-96d0-11eb-9fe8-2881768fad71.png) | ![df2b3cb779e0020e](https://user-images.githubusercontent.com/49060283/113668684-3ca8ee00-96d0-11eb-9700-df517e8664f9.png)
 
