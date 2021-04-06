@@ -199,9 +199,11 @@ Change it to use `_buildSuggestions()`, rather than directly calling the word-ge
 
 - **Step 11:-** Restart the app. You should see a list of word pairings no matter how far you scroll.
 
-Android
 
-iOS
+Android | IOS
+------------ | -------------
+![image]() | ![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
+
 
 
 
