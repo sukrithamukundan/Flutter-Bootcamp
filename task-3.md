@@ -202,7 +202,7 @@ Change it to use `_buildSuggestions()`, rather than directly calling the word-ge
 
 Android | IOS
 ------------ | -------------
-![image]() | ![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
+![image](![ae47ef0ac2f492b8](https://user-images.githubusercontent.com/49060283/113668680-3adf2a80-96d0-11eb-9fe8-2881768fad71.png)) | ![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
 
 
 
