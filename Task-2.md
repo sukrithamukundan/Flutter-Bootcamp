@@ -11,9 +11,9 @@
 
 You'll implement a simple app that generates proposed names for a startup company. The user can select and unselect names, saving the best ones. The code lazily generates 10 names at a time. As the user scrolls, more names are generated. There is no limit to how far a user can scroll.
 
-The following animated GIF shows how the app works at the completion of part 1&2:
+The following image shows how the app works at the completion of part 1:
 
-![6556f8b61acd6a89](https://user-images.githubusercontent.com/49060283/112726269-7cd6d680-8f42-11eb-8548-ab99ec93e462.gif)
+![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
 
 
 - **Step 1:-** Create a simple, templated Flutter app and name it **startup_namer**.
@@ -134,3 +134,11 @@ Android | IOS
 ------------ | -------------
 ![image](https://user-images.githubusercontent.com/49060283/112730198-3ee3ad80-8f56-11eb-927d-a2df10c29431.png) | ![image](https://user-images.githubusercontent.com/49060283/112730232-6b97c500-8f56-11eb-8f05-1e81f751f032.png)
 
+
+## Challenge
+
+**Add an app icon**
+
+For every app that you create using Flutter, you get a default Flutter logo as your app icon. 
+
+The challenge is to replace the flutter icon with a custom icon.

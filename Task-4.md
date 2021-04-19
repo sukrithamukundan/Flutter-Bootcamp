@@ -6,8 +6,7 @@
 
 
 ## What you'll build 
-End users can select and unselect names, saving the best ones. Tapping the list icon in the upper right of the app bar navigates to a new page (called a route) that lists only the favorited names.
-
+End users can select and unselect names, saving the best ones.
 
 The following image shows how the app would look like after completing part 3.
 
@@ -117,10 +116,27 @@ IOS | Android
 ## Observations
 
 > - [Trailing](https://api.flutter.dev/flutter/material/ListTile/trailing.html) is a widget to display after the title(right-aligned). Typically an Icon Widget.
+> - Leading is a widget to display before the title(left-aligned). Typically an Icon Widget.
+> - **setState()** When the widget’s state changes, the state object calls setState(), telling the framework to redraw the widget.
 
-- Leading is a widget to display before the title(left-aligned). Typically an Icon Widget.
 
-- **setState()** When the widget’s state changes, the state object calls setState(), telling the framework to redraw the widget.
+## Challenge
+
+You've already seen how a simple package such as the English words package works, and how it gets downloaded and incorporated into our project. You're now ready to go ahead and  **incorporate an audio file playing package** into our project.
+ 
+The Challenge for today is to incorporate **Button click sound effect when tapping the heart icon.**
+ 
+**Hint:**
+
+1. Download the sound(https://www.zapsplat.com/sound-effect-category/button-clicks/)
+
+2. Store it in the assets folder
+
+3. Find a suitable package from pub.dev (https://pub.dev/packages/audioplayers you can use this package)
+
+4. Add dependency in your pubspec.yaml file
+
+5. Import and use it in your project.
 
 
 
