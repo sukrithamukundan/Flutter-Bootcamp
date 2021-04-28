@@ -120,7 +120,7 @@ IOS | Android
 > - **setState()** When the widget’s state changes, the state object calls setState(), telling the framework to redraw the widget.
 
 
-## Challenge
+## CHALLENGE
 
 You've already seen how a simple package such as the English words package works, and how it gets downloaded and incorporated into our project. You're now ready to go ahead and  **incorporate an audio file playing package** into our project.
  
