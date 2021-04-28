@@ -194,3 +194,12 @@ These days it's hard to come by a good app that doesn't feature any animations.
 
 **You can add other animations if you wish to.**
 
+
+### Update
+
+If you find it difficult to create the same animations as mentioned here, you can use any **prepackaged flutter animations from https://pub.dev/
+
+Suggestion:- Try animating the headings “Startup Name Generator” and the “Saved Suggestions” using any of the text animations from https://pub.dev/packages/animated_text_kit
+
+
+
