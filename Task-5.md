@@ -183,7 +183,7 @@ Android | iOS
 ![image](https://user-images.githubusercontent.com/49060283/114319612-cb35c900-9b2f-11eb-93a0-d5ef00ca8173.png) | ![image](https://user-images.githubusercontent.com/49060283/114319624-db4da880-9b2f-11eb-80c7-c628e1fbbcc4.png)
 
 
-## Challenge
+## CHALLENGE
 These days it's hard to come by a good app that doesn't feature any animations. 
 **The challenge is to create delightful experiences for the user by incorporating animations into your Startup Namer.**
 
