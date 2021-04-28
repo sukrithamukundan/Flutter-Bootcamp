@@ -211,7 +211,7 @@ IOS | Android
 ![ae47ef0ac2f492b8](https://user-images.githubusercontent.com/49060283/113668680-3adf2a80-96d0-11eb-9fe8-2881768fad71.png) | ![df2b3cb779e0020e](https://user-images.githubusercontent.com/49060283/113668684-3ca8ee00-96d0-11eb-9700-df517e8664f9.png)
 
 
-## Challenge
+## CHALLENGE
 Now that you've halfway built the app, it's time to customize it to make it your own🤗.
 
 As a Challenge, I want you to **Incorporate Custom Fonts** into Your Startup Namer.   
