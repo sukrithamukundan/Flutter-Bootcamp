@@ -21,9 +21,9 @@ Start with something simple, something that you want to exist in the world.
 
 Once you've got your idea sorted, the next step is to start somewhere. Break down the problem into smaller chunks. Create a list of tiny problems that once all addressed, will turn into the final app.
 
-Then start building! Along the way, you'll stumble upon roadblocks. Darn, I don't know how to play video or how to get the camera to work. At this point, StackOverflow, the Flutter docs, and the Flutter Packages site will be your best friends. There's also an active Flutter community on Gitter, where even the Flutter engineers occasionally browse through.
+Then start building! Along the way, you'll stumble upon roadblocks. Darn, I don't know how to play video or how to get the camera to work. At this point, [StackOverflow](https://stackoverflow.com/), the [Flutter docs](https://flutter.dev/docs), and the [Flutter Packages](https://pub.dartlang.org/flutter) site will be your best friends. There's also an active Flutter community on [Gitter](https://gitter.im/flutter/flutter), where even the Flutter engineers occasionally browse through.
 
- Is there something you think is amiss in the flutter documentation? Try submitting an issue or even a pull request on the flutter website's GitHub repo.
+ Is there something you think is amiss in the flutter documentation? Try submitting an issue or even a pull request on the [flutter website's GitHub repo](https://github.com/flutter/website/issues).
  
 Once you get comfortable building simple Flutter apps, push yourself some more. Try something more ambitious. 
 
