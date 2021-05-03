@@ -13,7 +13,8 @@
 
 
 
-**This is not the end! It's only the beginning of your Flutter journey.** 
+### This is not the end! It's only the beginning of your Flutter journey.
+
 
 To master a skill, the most important teacher will be practice. So now that you've completed the program, the next step is to build your own ideas into Flutter apps. You've got all the skills you need to take an idea and turn it into real apps.
 
