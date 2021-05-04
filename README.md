@@ -34,6 +34,7 @@ In this Bootcamp, you will be able to learn Flutter through interactive **Live**
 - [Get Started with Flutter - Malayalam](https://www.youtube.com/watch?v=cIZLeUBSlRM&list=PLr11YFCnWCCMQYU8z3Gol2gVA2nBtoKVo)
 - [Flutter Widget of the week](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2)
 - [Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+- [A Developer's Guide to Flutter](https://dev.to/solutelabs/a-developer-s-guide-to-flutter-37f1)
 - [Basic programming for absolute beginners](https://www.youtube.com/watch?v=FLQ-Vhw1NYQ)
 - [Basic programming for absolute beginners - Malayalam](https://www.youtube.com/watch?v=tCzyhf-f7zo&list=PLr11YFCnWCCMgk8qEewU_Zl32j3w7hyUZ)
 - [Intro to Dart for Java Developers](https://developers.google.com/codelabs/from-java-to-dart?continue=https%3A%2F%2Fdevelopers.google.com%2Flearn%2Fpathways%2Fintro-to-flutter%3Fhl%3Den%23codelab-https%3A%2F%2Fdevelopers.google.com%2Fcodelabs%2Ffrom-java-to-dart#0)
