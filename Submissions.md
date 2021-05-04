@@ -36,5 +36,7 @@ Then start building! Along the way, you'll stumble upon roadblocks. Darn, I don'
  
 Once you get comfortable building simple Flutter apps, push yourself some more. Try something more ambitious. 
 
-**I look forwards to your every success!**
+The Tasks App from the [Knowbotics](https://www.youtube.com/watch?v=S3PkT_REi1c&list=PLGykX21r34XAKta1fDBC7vcdEmew2VqMi) Series will be a great one to start off. We will be uploading the rest of the tutorials shortly.
+
+**I look forwards to your every success!🏆**
 
