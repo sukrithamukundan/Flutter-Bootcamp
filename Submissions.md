@@ -38,5 +38,12 @@ Once you get comfortable building simple Flutter apps, push yourself some more. 
 
 The Tasks App from the [Knowbotics](https://www.youtube.com/watch?v=S3PkT_REi1c&list=PLGykX21r34XAKta1fDBC7vcdEmew2VqMi) Series will be a great one to start off. We will be uploading the rest of the tutorials shortly.
 
+Once you've built your own Flutter apps then it's time to show it off to the world! The Flutter team has compiled a step-by-step guide on how to deploy Flutter apps to the Apple App Store and Google Play Store. 
+
+[Deploying your Android apps to the Google Play store](https://flutter.dev/docs/deployment/android)
+
+[Deploying your iOS apps to the Apple App Store](https://flutter.dev/docs/deployment/ios)
+
+
 **I look forwards to your every success!🏆**
 
